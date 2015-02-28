@@ -1,4 +1,4 @@
 # ImmigrationTracker
 an Immigration Tracker
 
-Link to Google Docs folder of previous work: https://drive.google.com/open?id=1DmXxWz-5EgPcWPNOsv08rf_DOOy0wLecTD6jJ1NYM8w&authuser=0
+Link to Google Docs folder of previous work: https://drive.google.com/folderview?id=0Bw88fG4eLAF0fmNzZGdzZlhTZ0FPY0NEWWZnYXVKclQ4Q3BNTkFoQ1N2Zk9vODBRWS1vRHM&usp=sharing
