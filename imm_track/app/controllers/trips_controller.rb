@@ -6,4 +6,12 @@ class TripsController < ApplicationController
     @trip = Trip.new
   end
 
+  def create
+    redirect_to trips_path(@trip) 
+  end
+
+  def trip_params
+    params.require(:country).permit(:start_date, :end_date, :reason)
+  end
+
 end

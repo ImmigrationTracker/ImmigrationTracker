@@ -23,10 +23,15 @@ body {
 
 div#backdrop {
   margin: 0 10%;
+  padding-top: .75%;
+  padding-bottom: 1%;
   background-color: rgba(250, 250, 250, .9);
   text-align: center;
 }
 
+p {
+  text-align: left;
+}
 
 /*div {
   width: 100%;
