@@ -57,13 +57,13 @@ The other sections are relatively self-explanatory - mockups and wireframes will
 
 ## Credits
 
-Idea, Management, Research, Copy, Wireframes: [Creatrix Tiara](http://github.com/creatrixtiara)  
-Google Sheets logic, Research: [Cap Petschulat](https://github.com/cap)  
-Research, Content: [Selena Teji](https://twitter.com/seltej)  
-Rails Development: [Lisa Vogt](https://github.com/lisavogtsf), [Utah K Newman](https://github.com/theutahkate), [Sophia Poirier](https://github.com/sophiapoirier)  
-Databases: [Nakeesha Conley](https://github.com/Nakeesha86)  
-Design, Wireframes: [Leslie Leone](https://github.com/leslieleone)  
-Security/Privacy Advice: [Jen-Mei Wu](https://github.com/jenmei)  
+*Idea, Management, Research, Copy, Wireframes:* [Creatrix Tiara](http://github.com/creatrixtiara)  
+*Google Sheets logic, Research:* [Cap Petschulat](https://github.com/cap)  
+*Research, Content:* [Selena Teji](https://twitter.com/seltej)  
+*Rails Development:* [Lisa Vogt](https://github.com/lisavogtsf), [Utah K Newman](https://github.com/theutahkate), [Sophia Poirier](https://github.com/sophiapoirier)  
+*Databases:* [Nakeesha Conley](https://github.com/Nakeesha86)  
+*Design, Wireframes:* [Leslie Leone](https://github.com/leslieleone)  
+*Security/Privacy Advice:* [Jen-Mei Wu](https://github.com/jenmei)  
 
 Developed at [CodeAcross 2015 San Francisco](http://www.codeforamerica.org/events/codeacross-2015/) on February 21 2015 and the [Lesbians who Tech Summit Hackathon](http://lesbianswhotech.org/summit/hackathon/) on February 28 and March 1 2015.
 
