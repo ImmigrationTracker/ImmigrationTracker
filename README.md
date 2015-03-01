@@ -1,16 +1,47 @@
-# ImmigrationTracker
-an Immigration Tracker
+# Immigration Tracker
 
-Link to Google Docs folder of previous work: https://drive.google.com/folderview?id=0Bw88fG4eLAF0fmNzZGdzZlhTZ0FPY0NEWWZnYXVKclQ4Q3BNTkFoQ1N2Zk9vODBRWS1vRHM&usp=sharing
+Did you know that it costs the US Government over US$300 million to ship forms to visa applicants - about the same as the Peace Corps budget?
+(Stat directly from Megan Smith, Chief Technology Officer at the White House)
 
-I am excited about this project!
-I am super excited as Well!!
-I need candy!!
+The immigration process is a massive mountain of bureacracy. Besides the myriad of forms with every combination of letters and numbers, there are tons and tons of supplementary paperwork detailing every last bit of your history.
 
-Immigration forms examples:
+While each visa has unique requirements, a lot of them ask for the same information. 10-year travel histories, employment histories, housing histories. Contact details and birth dates of everyone in your family. ID numbers and passport scans. Things that would be spread across multiple drives and Google Docs, and would need to be manually updated whenever you can get to it.
 
-http://www.immi.gov.au/allforms/pdf/80.pdf
+This app hopes to change that.
 
-http://www.uscis.gov/eir/visa-guide/h-1b-specialty-occupation/understanding-h-1b-requirements
+## What This Does
 
-http://travel.state.gov/content/visas/english/forms/ds-160--online-nonimmigrant-visa-application/frequently-asked-questions.html
+The Immigration Tracker helps organize, keep track of, and generate many of the required documentation for most visas around the world. Through this app, you can store:
+
+* *Your History* - fill in your personal information, travel history, employment history, and so on, and generate nicely-formatted documents with your information within a specific date range or other criteria
+* *Documents* - scans of your passports, visas, ID cards, specific visa forms, and so on
+* *Calendar* - keep track of any important dates, such as submissions dates or deadlines
+* *Contacts* - have details of your agent, any officials, employers, and anyone else important to your application
+* *To-Do List* - check off everything you need to do for your application
+* *Notes* - what it says on the tin
+ 
+![](https://immigrationtrackr.mybalsamiq.com/mockups/2830690.png)
+ 
+The meat of the application is in the *Your History* section. Here, the app will provide simple forms prompting you for the most important details for each document, and then allow you to generate PDFs of your data based on your specific criteria. For example, the Travel History form will ask you for dates of travel, country, ports of entry and exit, and reason for travel. You can then ask it to generate a document with your travel history from a specific date range (e.g. the last 10 years), and also calculate things like days spent outside a set country for you.
+
+![](https://immigrationtrackr.mybalsamiq.com/mockups/2830766.png)
+
+Whenever you want to start a new visa application, you will be prompted to select certain common documents to be added to your *To-Do List*. It's like queueing up a bunch of wizards to work for you!
+
+![](https://immigrationtrackr.mybalsamiq.com/mockups/2830849.png)
+
+You can keep track of your applications...
+
+# CONTINUE HERE
+
+## Supplementary Documentation
+
+[Google Spreadsheet mapping out the various elements of visa paperwork](http://is.gd/v8Zoib)
+[Basic wireframes](https://immigrationtrackr.mybalsamiq.com/projects/immigrationtracker/grid)
+[Basic website mockup](http://leslieleone.wix.com/immigrationtrackr)
+
+Immigration forms examples and requirements:
+
+[Australia: Character Declaration Form](http://www.immi.gov.au/allforms/pdf/80.pdf)
+[USA: H1B Requirements](http://www.uscis.gov/eir/visa-guide/h-1b-specialty-occupation/understanding-h-1b-requirements)
+[USA: FAQ for DS-160 Application](http://travel.state.gov/content/visas/english/forms/ds-160--online-nonimmigrant-visa-application/frequently-asked-questions.html)
