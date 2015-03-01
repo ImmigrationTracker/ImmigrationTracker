@@ -22,23 +22,32 @@ The Immigration Tracker helps organize, keep track of, and generate many of the 
  
 ![](https://immigrationtrackr.mybalsamiq.com/mockups/2830690.png)
  
-The meat of the application is in the *Your History* section. Here, the app will provide simple forms prompting you for the most important details for each document, and then allow you to generate PDFs of your data based on your specific criteria. For example, the Travel History form will ask you for dates of travel, country, ports of entry and exit, and reason for travel. You can then ask it to generate a document with your travel history from a specific date range (e.g. the last 10 years), and also calculate things like days spent outside a set country for you.
-
-![](https://immigrationtrackr.mybalsamiq.com/mockups/2830766.png)
-
 Whenever you want to start a new visa application, you will be prompted to select certain common documents to be added to your *To-Do List*. It's like queueing up a bunch of wizards to work for you!
 
 ![](https://immigrationtrackr.mybalsamiq.com/mockups/2830849.png)
 
-You can keep track of your applications...
+You can keep track of your open applications (much like many job sites):
+
+![](https://immigrationtrackr.mybalsamiq.com/mockups/2830858.png)
+
+The meat of the application is in the *Your History* section. Here, the app will provide simple forms prompting you for the most important details for each document, and then allow you to generate PDFs of your data based on your specific criteria. For example, the Travel History form will ask you for dates of travel, country, ports of entry and exit, and reason for travel. You can then ask it to generate a document with your travel history from a specific date range (e.g. the last 10 years), and also calculate things like days spent outside a set country for you.
+
+![](https://immigrationtrackr.mybalsamiq.com/mockups/2830766.png)
+
 
 # CONTINUE HERE
+
+## So Far We Have
+
+*Databases*: We have created ERDs for the bio/personal information, travel history, and accounts using PostgreSQL.
+*Design*: We have a [basic website mockup on Wix](http://leslieleone.wix.com/immigrationtrackr) - none of the forms are really operational (since you can't connect Wix to a database) but it gives a good idea of the vibe we'd like to associate with this app: relieving the tedium of visa applications.
+*Front End and Back End*: We're trying to connect the databases to views using Rails.
 
 ## Supplementary Documentation
 
 [Google Spreadsheet mapping out the various elements of visa paperwork](http://is.gd/v8Zoib)
 [Basic wireframes](https://immigrationtrackr.mybalsamiq.com/projects/immigrationtracker/grid)
-[Basic website mockup](http://leslieleone.wix.com/immigrationtrackr)
+
 
 Immigration forms examples and requirements:
 
