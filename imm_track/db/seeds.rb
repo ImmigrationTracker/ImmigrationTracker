@@ -6,8 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-tiara = User.create(username: "Tiara")
-lisa = User.create(username: "Lisa")
+# tiara = User.create(username: "Tiara")
+# lisa = User.create(username: "Lisa")
 
 tiara = User.find_by(id: 1)
 lisa = User.find_by(id: 2)
