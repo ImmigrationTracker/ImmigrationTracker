@@ -1,11 +1,7 @@
-# ImmigrationTracker
-an Immigration Tracker
+# Immigration Tracker
+Tracking Immigration paperwork since there's too many forms
 
-Link to Google Docs folder of previous work: https://drive.google.com/folderview?id=0Bw88fG4eLAF0fmNzZGdzZlhTZ0FPY0NEWWZnYXVKclQ4Q3BNTkFoQ1N2Zk9vODBRWS1vRHM&usp=sharing
-
-I am excited about this project!
-I am super excited as Well!!
-I need candy!!
+Did you know that it costs the US Government over US$300 million to ship forms to visa applicants - about the same as the Peace Corps budget?
 
 Immigration forms examples:
 
