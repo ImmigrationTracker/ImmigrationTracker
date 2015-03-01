@@ -1,0 +1,41 @@
+<!-- we need a travel form input
+fields: 
+start date - int? (or day month year)
+end date - int?
+port of exit - string
+port of entry - string
+reason - text field -->
+<!--need travel model name, param names-->
+<!-- this will be the input, but also do a show view for after the save button -->
+
+<%= form_for(@trips, html: {multipart: true}) do |f| %>
+  <!-- <ul>
+    <% @article.errors.full_messages.each do |error| %>
+      <li><%=error %></li>
+    <% end %>
+  </ul> -->
+  
+  <p> 
+    <%= f.label :port_of_exit %><br />
+    <%= f.text_field :port_of_exit %>
+  </p>
+
+  <p>
+    <%= f.label :port_of_entry %><br />
+    <%= f.text_field :port_of_entry %>
+  </p>
+  <p>
+    <%= f.label :departure_date %><br />
+    <%= f.date_select :start_date %><br />
+  </p>
+  <p>
+    <%= f.label :return_date %><br />
+    <%= f.date_select :end_date %><br />
+  </p>
+  <p>
+    <%= f.label :reason_for_travel %><br />
+    <%= f.text_area :reason
+  <p>
+    <%= f.submit %> 
+  </p>
+<% end %>
