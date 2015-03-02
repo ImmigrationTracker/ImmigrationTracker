@@ -55,6 +55,7 @@ The other sections are relatively self-explanatory - mockups and wireframes will
 * Figuring out security and privacy - whether through adding encryption and other security options to a web app, or making this a downloadable app that is not accessible online
 * Setting up a website that connects the front end to our Rails and PostgreSQL work
 * Researching more documents and forms common to the visa experience
+* The best version of the Rails app is on the better_schema branch, but we ran into significant technical difficulties and merge conflicts, so you might want to start over. I have included some assets in another repo, including a detailed entity relationship diagram for the database. [lwtsummit_resources](https://github.com/ImmigrationTracker/lwt_summit_resources)
 
 ## Credits
 
