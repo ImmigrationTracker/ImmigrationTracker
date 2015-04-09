@@ -42,7 +42,7 @@ The other sections are relatively self-explanatory - mockups and wireframes will
 
 ## So Far We Have
 
-* **Databases**: We have created ERDs for the bio/personal information, travel history, and accounts using PostgreSQL.
+* **Databases**: We have created entity relationship diagrams (ERD) for the bio/personal information, travel history, and accounts using PostgreSQL. *  [ImmigrationTracker ERD](https://github.com/ImmigrationTracker/lwt_summit_resources/blob/master/ImmigrationTrackrERD2.jpeg)
 * **Design**: We have a [basic website mockup on Wix](http://leslieleone.wix.com/immigrationtrackr) - none of the forms are really operational (since you can't connect Wix to a database) but it gives a good idea of the vibe we'd like to associate with this app: relieving the tedium of visa applications.
 * **Front End and Back End**: We're trying to connect the databases to views using Rails.
 * **Wireframes**: We have [some wireframes](https://immigrationtrackr.mybalsamiq.com/projects/immigrationtracker/grid) for a few of the sections, which you see above.
