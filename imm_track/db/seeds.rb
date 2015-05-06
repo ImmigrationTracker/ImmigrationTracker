@@ -24,10 +24,13 @@ doraInfo = Bio.create(first_name: "Dora", last_name: "Explora", citizenship: "Me
 waldoInfo = Bio.create(first_name: "Waldo", last_name: "Where", citizenship: "Swedish", place_of_birth: "Oslo, Sweden")
 mariaInfo = Bio.create(first_name: "Maria", last_name: "Mariana", citizenship: "Filipina", place_of_birth: "Manila, Philippines")
 
+
 doraInfo = Bio.find_by(first_name: "Dora")
 waldoInfo = Bio.find_by(first_name: "Waldo")
 mariaInfo = Bio.find_by(first_name: "Maria")
 
+# comment out once pushed 
 dora.bios.push(doraInfo)
 waldo.bios.push(waldoInfo)
 maria.bios.push(mariaInfo)
+
