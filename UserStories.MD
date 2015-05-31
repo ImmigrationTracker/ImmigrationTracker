@@ -15,6 +15,18 @@ The name field, since it is only used for greetings, should be freeform.
 
 All of these information must be stored securely. There must be ways to edit and update this information as needed.
 
+**As a user in general, I need to be able to:**
+
+* View a welcome screen that has my current application and a to-do list, as well as tabs for the following sections:
+  * Applications - a record of all the applications I have made, with status, submission dates and response dates
+  * Life Histories - describing different life history tables created (see below) as well as options to create new life histories or generate reports
+  * Scanned Documents - copies of important documentation, clearly labeled and dated, with the option to delete or rename
+  * Contact/Personal Information - a directory/address book of relevant people both for application purposes (such as details of currently-living relatives) or administrative purposes (such as contact details of the migration agent)
+* Have a calendar of important dates, based on the to-do list
+* Be prompted in case I have not updated my life histories in a while (the prompt dates can be determined by the user)
+
+I should be able to access this information at will, in any order. This information should be safe and secure, and accessible via password. If I forget my password or login info I should be able to securely retrieve my password.
+
 **As a user starting a new visa application, I need to be able to:**
 
 * Start a new file to represent a new visa
@@ -48,14 +60,32 @@ These files need to be saved in a secure encrypted location.
 * Update information as I go, regardless of whether there is an application in process or not
 * Be presented with a master screen of my currently active life histories, with dates for last updates and last reports generated
 
-== TO BE CONTINUED ==
+**As a user wishing to upload scans of my documents, I need to be able to:**
 
-* As a user working on a visa application
+* Access a page that has easy-to-follow prompts to upload files
+* Be able to upload files in specified formats specific to documents or images
+* Rename files as appropriate
+* Upload multiple versions of a document if necessary
+* Delete documents when wanted
+* Have all the documents kept securely and with encryption so they cannot be accessed by anyone except the user
 
-* Save scans of forms, IDs, and anything else
-* Key in dates of last contact, due dates, response dates
-* Keep contact information handy (whether for application reasons, such as details of family members, or for administrative reasons, such as lawyer details)
-* Have a calendar of important dates (possibly integrate with other calender apps?)
-* Be prompted if I have not updated my life history lists in a while
-* Have all my information SECURE and SAFE!!!!!
-* Delete any information that is no longer wanted and have that delete be as permanent as necessary for security
+**As a user keeping contact information, I need to be able to:**
+
+* Enter each person with the following schema:
+  * Name on ID:
+  * Relationship:
+  * Address:
+  * City/Country:
+  * Birth Date:
+  * Death Date:
+  * Gender:
+  * Phone Number:
+  * Email:
+  * Children:
+* Add more fields to the schema as needed
+* Indicate whether a contact is for the Application or for Administration - this would mean different questions are asked for each other (for example, we don't need the birthdate or gender of the migration agent)
+* Update each contact as needed
+
+As a wishlist item, it would be great if family trees can be generated based on provided contact information.
+
+As always, everything needs to be safe and secure.
