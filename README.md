@@ -74,3 +74,7 @@ Immigration forms examples and requirements:
 * [Australia: Character Declaration Form](http://www.immi.gov.au/allforms/pdf/80.pdf)
 * [USA: H1B Requirements](http://www.uscis.gov/eir/visa-guide/h-1b-specialty-occupation/understanding-h-1b-requirements)
 * [USA: FAQ for DS-160 Application](http://travel.state.gov/content/visas/english/forms/ds-160--online-nonimmigrant-visa-application/frequently-asked-questions.html)
+
+## [License](http://choosealicense.com/licenses/agpl-3.0/)
+
+This is licensed under [GNU Affero General Public License v3.0](http://choosealicense.com/licenses/agpl-3.0/)
