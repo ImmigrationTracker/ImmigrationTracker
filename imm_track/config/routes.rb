@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  resources :documents
+
   root 'sites#index'
 
   # get 'trips/index' => 'trips#index'
