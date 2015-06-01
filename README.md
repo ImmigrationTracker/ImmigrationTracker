@@ -1,5 +1,8 @@
 # Immigration Tracker
 
+
+## Update: [A Firebase version is available here](https://github.com/aladdine/immiTrackr) if anyone would prefer to develop in Javascript. This repo has files in Ruby.
+
 Did you know that it costs the US Government over US$300 million to ship forms to visa applicants - about the same as the Peace Corps budget?
 (Stat directly from Megan Smith, Chief Technology Officer at the White House)
 
