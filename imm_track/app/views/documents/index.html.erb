@@ -1,0 +1,31 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Your Documents</h1>
+
+<table class="docs">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Comments</th>
+      <th>Description</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @documents.each do |document| %>
+      <tr>
+        <td><%= document.title %></td>
+        <td><%= document.comments %></td>
+        <td><%= document.description %></td>
+        <td><%= link_to 'File Link', document.doc_file.url %></td>
+        <td><%= link_to 'Edit', edit_document_path(document) %></td>
+        <td><%= link_to 'Delete', document, method: :delete, data: { confirm: 'Are you sure you want to delete this document?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'Upload a New Document', new_document_path, class: "upload" %>
